@@ -47,7 +47,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'machinelearning.apps.MachinelearningConfig',
 ]
+
 
 ROOT_URLCONF = 'newlearning.urls'
 
